@@ -6,3 +6,4 @@
 <p>Set download (destiny) folder path in errorstocks.py at line no 34</p>
 <p>Now set dates of what you want data</p>
 <p>Most imp set username and password by making an account on this <a href="https://www.dukascopy.com">site</a></p>
+<h3>py need_to_run_this_only.py</h3>
