@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hello</title>
+</head>
+<body>
+	<h1>Hey</h1>
+	<script>
+		var xml=new XMLHttpRequest();
+		xml.open('GET','https://finance.google.com/finance/historical?q=GOOGL',true);
+		xml.onload=function(){
+			console.log(this.responseText)
+		}
+		xml.send()
+	</script>
+</body>
+</html>
